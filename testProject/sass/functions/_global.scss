@@ -1,0 +1,4 @@
+// 根据列数和总宽度计算列宽.
+@function row-width($rowCnt, $width) {
+    @return ($width / $rowCnt)px;
+}

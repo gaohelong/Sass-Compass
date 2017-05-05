@@ -1,0 +1,8 @@
+@import "../core"; // 加载核心文件(变量、混合器、自定义函数……).
+
+.domain {
+    .list .row {
+        width: row-width(6, 200);
+        @include border-radius(6px);
+    }
+}
