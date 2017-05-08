@@ -2,7 +2,12 @@
 
 .domain {
     .list .row {
+        height: 100px;
         width: row-width(6, 200);
         @include border-radius(6px);
     }
+}
+
+.clearfix {
+    @include clearfix();
 }

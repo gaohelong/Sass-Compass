@@ -1,7 +1,12 @@
-/* line 4, ../../../sass/modules/domain/domain.scss */
 .domain .list .row {
+  height: 100px;
   width: 33.33333 px;
   -moz-border-radius: 6px;
   -webkit-border-radius: 6px;
   border-radius: 6px;
+}
+
+.clearfix {
+  overflow: hidden;
+  *zoom: 1;
 }
