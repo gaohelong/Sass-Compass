@@ -85,6 +85,7 @@ compass watch
 
 ## 项目结构.
 ```
+|-config.rb
 |-sass
     |-main.scss             // 全局样式.
     |-_reboot.scss          // 重置浏览器默认样式.
