@@ -95,8 +95,9 @@ $ compass compile -c config_prod.rb --force
 
 ## 项目结构.
 ```
-|-config.rb
-|-config_prod.rb
+|-config.rb                 // 开发环境配置文件.
+|-config_prod.rb            // 线上环境配置文件.
+|-configbbdBoss.rb          // 可以在当前的sass项目中将最终的结果输出到需要的具体的项目中, 也可以用这个文件替换config.rb默认输出.
 |-sass
     |-main.scss             // 全局样式.
     |-_reboot.scss          // 重置浏览器默认样式.
