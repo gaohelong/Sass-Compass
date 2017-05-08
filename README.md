@@ -71,7 +71,11 @@ compass watch
 
 在命令行下直接使用命令编译生产环境最终使用文件
 ```
-compass compile -s compressed --force
+方法一: 直接使用压缩命令重新编译所有文件.
+$ compass compile -s compressed --force
+
+方法二: 使用配置文件重新编译所有文件.
+$ compass compile -c config_prod.rb --force
 ```
 
 运行该命令后，只要scss文件发生变化，就会被自动编译成css文件. 
@@ -92,6 +96,7 @@ compass compile -s compressed --force
 ## 项目结构.
 ```
 |-config.rb
+|-config_prod.rb
 |-sass
     |-main.scss             // 全局样式.
     |-_reboot.scss          // 重置浏览器默认样式.
