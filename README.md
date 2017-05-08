@@ -68,6 +68,12 @@ output_style = (environment == :production) ? :compressed : :expanded
 ```
 compass watch
 ```
+
+在命令行下直接使用命令编译生产环境最终使用文件
+```
+compass compile -s compressed --force
+```
+
 运行该命令后，只要scss文件发生变化，就会被自动编译成css文件. 
 更多的compass命令行用法，请参考官方文档. 
 
